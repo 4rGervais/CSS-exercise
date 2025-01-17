@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: block;
+    position: sticky;
+    top: 0px;
+}
+header .up{
+    padding: 0px 120px 0px 30px;
+    background-color: white;
+}
+header .up, header .down {
+    display: flex;
+    justify-content: space-between;
+}
+header .up ul{
+    margin-top: 40px;
+}
+header .up a{
+    color: #0A3370;
+}
+header .up img{
+    height: 110px;
+}
+header .down a{
+    color: white;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+header ul a{
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+header .down{
+    display: block;
+    background-color: #00244e;
+    text-align: center;
+    padding: 0px 100px;
+}
+header .down ul li{
+    justify-content: space-between;
+    margin: 20px auto;
+}
+h1{
+    color: #0A3370;
+}
+.main-content .up{
+    /* display: block; */
+    background-image: url('https://www.snhu.edu/-/media/images/masthead-image/homepage-masthead/degree-homepage-masthead-2022.ashx?h=500&iar=0&w=2000&hash=3A7BFBB8221FAC630B04FE38D3403AA4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main-content .up #program{
+    margin: 400px;
+}
