@@ -4,11 +4,11 @@
 .content{
     margin: auto;
     background-color: rgba(241, 241, 241, 1);
-    width: 1296px;
+    width: 100%;
 }
 span{
     display: block;
-    width: 1920px;
+    width: 100%;
     height: 149px;
     background-color: rgba(242, 141, 0, 1);
     text-align: center;
@@ -19,7 +19,7 @@ span img{
     height: 80px;
 }
 figure img{
-    width: 1296px;
+    width: 100%;
     height: 1076px;
     padding: 0px; 
 }
@@ -67,7 +67,7 @@ input[type='submit']{
 footer{
     margin: auto;
     text-align: center;
-    width: 1396px;
+    width: 100%;
     height: 70px;
     padding-top: 70px;
     font-weight: 600;

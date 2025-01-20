@@ -15,7 +15,11 @@
     list-style: none;
 }
 header{
+    position: fixed;
     display: flex;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 200px;
 }
 header img{
     margin-left: 40px;
@@ -25,7 +29,7 @@ header ul{
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 header ul li{
     font-weight: 600;
@@ -35,8 +39,89 @@ header ul li input{
     border-bottom: 1px solid black;
     margin-right: 50px;
 }
+/* header */
 .up{
     background-image: url('images/img1.jpg');
     background-size: cover;
-    height: 500px;
+    padding: 260px 200px 180px;
+}
+.upper{
+    background-color: rgba(59, 57, 53, 0.8);
+    padding: 30px;
+    width: 400px;
+    color: white;
+    align-items: start;
+}
+.upper p{
+    margin: 20px 0px;
+}
+.upper button{
+    padding: 4px;
+    background-color: rgb(154, 124, 85);
+    border: none;
+}
+main{
+    margin: 100px;
+}
+#s{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    color: burlywood;
+}
+.study{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px 50px;
+}
+.study h1{
+    width: 1000px;
+}
+.study p{
+    font-size: large;
+    color: gray;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+}
+.course form,
+.course #a-z{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.course form{
+    gap: 20px;
+}
+.course form select,
+.course form input{
+    border: 2px solid black;
+    padding: 10px;
+    width: 690px;
+    font-size: large;
+}
+.course form input[type='text']{
+    width: 666px;
+}
+.course form input[type = 'submit']{
+    background-color: rgb(169, 148, 64);
+    border: 2px solid rgb(169, 148, 64);
+    font-size: x-large;
+    color: white;
+}
+.course form input[type = 'submit']:hover{
+    background-color: white;
+    color: rgb(169, 148, 64);
+}
+.course #a-z #uppp{
+    font-size: xx-large;
+    font-weight: 200;
+}
+.course #a-z u{
+    width: 340px;
+    line-height: 35px;
+    font-weight: 100;
+    color: gray;
+    font-size: x-large;
 }
